@@ -5,7 +5,8 @@ import (
 	"runtime"
 	"strconv"
 	"syscall"
-
+	"strings"
+	
 	"github.com/golang/protobuf/proto"
 
 	"github.com/frainzy1477/xray-core/common/net"
