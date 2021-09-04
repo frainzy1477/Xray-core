@@ -16,7 +16,7 @@ import (
 
 // TrojanServerTarget is configuration of a single trojan server
 type TrojanServerTarget struct {
-	Address  *Address `json:"address"`
+	Address  string `json:"address"`
 	Port     uint16   `json:"port"`
 	Password string   `json:"password"`
 	Email    string   `json:"email"`

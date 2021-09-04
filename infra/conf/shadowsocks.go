@@ -93,7 +93,7 @@ func (v *ShadowsocksServerConfig) Build() (proto.Message, error) {
 }
 
 type ShadowsocksServerTarget struct {
-	Address  *Address `json:"address"`
+	Address  string `json:"address"`
 	Port     uint16   `json:"port"`
 	Cipher   string   `json:"method"`
 	Password string   `json:"password"`

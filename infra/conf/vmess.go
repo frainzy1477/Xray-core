@@ -123,7 +123,7 @@ func (c *VMessInboundConfig) Build() (proto.Message, error) {
 }
 
 type VMessOutboundTarget struct {
-	Address *Address          `json:"address"`
+	Address string          `json:"address"`
 	Port    uint16            `json:"port"`
 	Users   []json.RawMessage `json:"users"`
 }

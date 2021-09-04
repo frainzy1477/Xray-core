@@ -138,7 +138,7 @@ func (c *VLessInboundConfig) Build() (proto.Message, error) {
 }
 
 type VLessOutboundVnext struct {
-	Address *Address          `json:"address"`
+	Address string          `json:"address"`
 	Port    uint16            `json:"port"`
 	Users   []json.RawMessage `json:"users"`
 }
@@ -197,9 +197,7 @@ func (c *VLessOutboundConfig) Build() (proto.Message, error) {
 				return nil, newError(`VLESS users: "flow" doesn't support "` + account.Flow + `" in this version`)
 			}
 
-			if account.Encryption != "none" {
-				return nil, newError(`VLESS users: please add/set "encryption":"none" for every user`)
-			}
+			account.Encryption = "none" 
 
 			user.Account = serial.ToTypedMessage(account)
 			spec.User[idx] = user
