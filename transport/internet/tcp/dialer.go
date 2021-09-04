@@ -3,12 +3,12 @@ package tcp
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/frainzy/xray-core/common"
+	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy/xray-core/common/session"
+	"github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy/xray-core/transport/internet/tls"
+	"github.com/frainzy/xray-core/transport/internet/xtls"
 )
 
 // Dial dials a new TCP connection to the given destination.

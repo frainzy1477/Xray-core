@@ -8,13 +8,13 @@ import (
 
 	goxtls "github.com/xtls/go"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/tls"
-	"github.com/xtls/xray-core/transport/internet/udp"
-	"github.com/xtls/xray-core/transport/internet/xtls"
+	"github.com/frainzy/xray-core/common"
+	"github.com/frainzy/xray-core/common/buf"
+	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy/xray-core/transport/internet/tls"
+	"github.com/frainzy/xray-core/transport/internet/udp"
+	"github.com/frainzy/xray-core/transport/internet/xtls"
 )
 
 type ConnectionID struct {

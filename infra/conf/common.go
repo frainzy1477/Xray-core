@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy/xray-core/common/protocol"
 )
 
 type StringList []string

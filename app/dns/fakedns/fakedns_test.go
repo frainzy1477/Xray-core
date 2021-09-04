@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/features/dns"
+	"github.com/frainzy/xray-core/common"
+	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy/xray-core/common/uuid"
+	"github.com/frainzy/xray-core/features/dns"
 )
 
 var (

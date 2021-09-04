@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/common/uuid"
-	. "github.com/xtls/xray-core/proxy/vmess"
+	"github.com/frainzy/xray-core/common"
+	"github.com/frainzy/xray-core/common/protocol"
+	"github.com/frainzy/xray-core/common/serial"
+	"github.com/frainzy/xray-core/common/uuid"
+	. "github.com/frainzy/xray-core/proxy/vmess"
 )
 
 func toAccount(a *Account) protocol.Account {

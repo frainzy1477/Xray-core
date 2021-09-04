@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	dns_feature "github.com/xtls/xray-core/features/dns"
+	"github.com/frainzy/xray-core/common"
+	"github.com/frainzy/xray-core/common/errors"
+	"github.com/frainzy/xray-core/common/net"
+	dns_feature "github.com/frainzy/xray-core/features/dns"
 	"golang.org/x/net/dns/dnsmessage"
 )
 

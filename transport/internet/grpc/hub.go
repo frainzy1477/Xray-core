@@ -6,12 +6,12 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/grpc/encoding"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/frainzy/xray-core/common"
+	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy/xray-core/common/session"
+	"github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy/xray-core/transport/internet/grpc/encoding"
+	"github.com/frainzy/xray-core/transport/internet/tls"
 )
 
 type Listener struct {

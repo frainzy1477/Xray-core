@@ -3,10 +3,10 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	. "github.com/xtls/xray-core/infra/conf"
-	"github.com/xtls/xray-core/proxy/freedom"
+	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy/xray-core/common/protocol"
+	. "github.com/frainzy/xray-core/infra/conf"
+	"github.com/frainzy/xray-core/proxy/freedom"
 )
 
 func TestFreedomConfig(t *testing.T) {

@@ -1,6 +1,6 @@
 package inbound
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/frainzy/xray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -9,24 +9,24 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/log"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/signal"
-	"github.com/xtls/xray-core/common/task"
-	"github.com/xtls/xray-core/common/uuid"
-	"github.com/xtls/xray-core/core"
-	feature_inbound "github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/policy"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/proxy/vmess"
-	"github.com/xtls/xray-core/proxy/vmess/encoding"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/frainzy/xray-core/common"
+	"github.com/frainzy/xray-core/common/buf"
+	"github.com/frainzy/xray-core/common/errors"
+	"github.com/frainzy/xray-core/common/log"
+	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy/xray-core/common/platform"
+	"github.com/frainzy/xray-core/common/protocol"
+	"github.com/frainzy/xray-core/common/session"
+	"github.com/frainzy/xray-core/common/signal"
+	"github.com/frainzy/xray-core/common/task"
+	"github.com/frainzy/xray-core/common/uuid"
+	"github.com/frainzy/xray-core/core"
+	feature_inbound "github.com/frainzy/xray-core/features/inbound"
+	"github.com/frainzy/xray-core/features/policy"
+	"github.com/frainzy/xray-core/features/routing"
+	"github.com/frainzy/xray-core/proxy/vmess"
+	"github.com/frainzy/xray-core/proxy/vmess/encoding"
+	"github.com/frainzy/xray-core/transport/internet"
 )
 
 var (

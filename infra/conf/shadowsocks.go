@@ -5,9 +5,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/serial"
-	"github.com/xtls/xray-core/proxy/shadowsocks"
+	"github.com/frainzy/xray-core/common/protocol"
+	"github.com/frainzy/xray-core/common/serial"
+	"github.com/frainzy/xray-core/proxy/shadowsocks"
 )
 
 func cipherFromString(c string) shadowsocks.CipherType {

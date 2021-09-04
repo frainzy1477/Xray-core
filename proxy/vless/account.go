@@ -1,8 +1,8 @@
 package vless
 
 import (
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/uuid"
+	"github.com/frainzy/xray-core/common/protocol"
+	"github.com/frainzy/xray-core/common/uuid"
 )
 
 // AsAccount implements protocol.Account.AsAccount().

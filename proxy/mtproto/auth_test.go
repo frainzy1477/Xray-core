@@ -7,8 +7,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/xtls/xray-core/common"
-	. "github.com/xtls/xray-core/proxy/mtproto"
+	"github.com/frainzy/xray-core/common"
+	. "github.com/frainzy/xray-core/proxy/mtproto"
 )
 
 func TestInverse(t *testing.T) {

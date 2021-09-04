@@ -5,15 +5,15 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/frainzy/xray-core/common"
+	"github.com/frainzy/xray-core/common/dice"
+	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy/xray-core/common/net/cnc"
+	"github.com/frainzy/xray-core/common/session"
+	"github.com/frainzy/xray-core/features/dns"
+	"github.com/frainzy/xray-core/features/outbound"
+	"github.com/frainzy/xray-core/transport"
+	"github.com/frainzy/xray-core/transport/pipe"
 )
 
 var (

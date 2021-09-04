@@ -8,9 +8,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform/filesystem"
+	"github.com/frainzy/xray-core/app/router"
+	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy/xray-core/common/platform/filesystem"
 )
 
 type RouterRulesConfig struct {

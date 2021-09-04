@@ -1,6 +1,6 @@
 package dns
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/frainzy/xray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -11,18 +11,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/common/strmatcher"
-	"github.com/xtls/xray-core/common/uuid"
-	core "github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport/internet"
+	"github.com/frainzy/xray-core/app/router"
+	"github.com/frainzy/xray-core/common"
+	"github.com/frainzy/xray-core/common/errors"
+	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy/xray-core/common/session"
+	"github.com/frainzy/xray-core/common/strmatcher"
+	"github.com/frainzy/xray-core/common/uuid"
+	core "github.com/frainzy/xray-core/core"
+	"github.com/frainzy/xray-core/features"
+	"github.com/frainzy/xray-core/features/dns"
+	"github.com/frainzy/xray-core/features/routing"
+	"github.com/frainzy/xray-core/transport/internet"
 )
 
 // Server is a DNS rely server.

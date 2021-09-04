@@ -5,12 +5,12 @@ import (
 	"time"
 
 	"github.com/lucas-clemente/quic-go"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/tls/cert"
-	"github.com/xtls/xray-core/common/signal/done"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/frainzy/xray-core/common"
+	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy/xray-core/common/protocol/tls/cert"
+	"github.com/frainzy/xray-core/common/signal/done"
+	"github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy/xray-core/transport/internet/tls"
 )
 
 // Listener is an internet.Listener that listens for TCP connections.

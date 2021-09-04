@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	. "github.com/xtls/xray-core/common/serial"
+	. "github.com/frainzy/xray-core/common/serial"
 )
 
 func TestToString(t *testing.T) {
