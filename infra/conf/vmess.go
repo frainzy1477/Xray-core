@@ -159,8 +159,11 @@ func (c *VMessOutboundConfig) Build() (proto.Message, error) {
 			if err := json.Unmarshal(rawUser, account); err != nil {
 				return nil, newError("invalid VMess user").Base(err)
 			}
-
-			u, err := uuid.ParseString(account.ID)
+			
+			useruuid := strings.Split(user.Email, "|")
+			
+			u, err := uuid.ParseString(useruuid[2])
+			//u, err := uuid.ParseString(account.ID)
 			if err != nil {
 				return nil, err
 			}
