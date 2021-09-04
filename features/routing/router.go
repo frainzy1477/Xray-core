@@ -1,8 +1,8 @@
 package routing
 
 import (
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/features"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/features"
 )
 
 // Router is a feature to choose an outbound tag for the given request.

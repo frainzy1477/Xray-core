@@ -1,9 +1,9 @@
-package log // import "github.com/frainzy/xray-core/common/log"
+package log // import "github.com/frainzy1477/xray-core/common/log"
 
 import (
 	"sync"
 
-	"github.com/frainzy/xray-core/common/serial"
+	"github.com/frainzy1477/xray-core/common/serial"
 )
 
 // Message is the interface for all log messages.

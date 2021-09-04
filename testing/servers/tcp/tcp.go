@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/task"
-	"github.com/frainzy/xray-core/transport/internet"
-	"github.com/frainzy/xray-core/transport/pipe"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/task"
+	"github.com/frainzy1477/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/transport/pipe"
 )
 
 type Server struct {

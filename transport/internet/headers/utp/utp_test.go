@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/buf"
-	. "github.com/frainzy/xray-core/transport/internet/headers/utp"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/buf"
+	. "github.com/frainzy1477/xray-core/transport/internet/headers/utp"
 )
 
 func TestUTPWrite(t *testing.T) {

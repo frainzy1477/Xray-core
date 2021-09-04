@@ -14,10 +14,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/frainzy/xray-core/common/cmdarg"
-	"github.com/frainzy/xray-core/common/platform"
-	"github.com/frainzy/xray-core/core"
-	"github.com/frainzy/xray-core/main/commands/base"
+	"github.com/frainzy1477/xray-core/common/cmdarg"
+	"github.com/frainzy1477/xray-core/common/platform"
+	"github.com/frainzy1477/xray-core/core"
+	"github.com/frainzy1477/xray-core/main/commands/base"
 )
 
 var cmdRun = &base.Command{

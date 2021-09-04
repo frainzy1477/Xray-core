@@ -1,6 +1,6 @@
 package command
 
-//go:generate go run github.com/frainzy/xray-core/common/errors/errorgen
+//go:generate go run github.com/frainzy1477/xray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -8,10 +8,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/core"
-	"github.com/frainzy/xray-core/features/routing"
-	"github.com/frainzy/xray-core/features/stats"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/core"
+	"github.com/frainzy1477/xray-core/features/routing"
+	"github.com/frainzy1477/xray-core/features/stats"
 )
 
 // routingServer is an implementation of RoutingService.

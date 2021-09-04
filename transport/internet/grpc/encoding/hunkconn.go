@@ -7,9 +7,9 @@ import (
 
 	"google.golang.org/grpc/peer"
 
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/net/cnc"
-	"github.com/frainzy/xray-core/common/signal/done"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/net/cnc"
+	"github.com/frainzy1477/xray-core/common/signal/done"
 )
 
 type HunkConn interface {

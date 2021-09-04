@@ -1,9 +1,9 @@
 package router
 
 import (
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/features/outbound"
-	"github.com/frainzy/xray-core/features/routing"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/features/outbound"
+	"github.com/frainzy1477/xray-core/features/routing"
 )
 
 // CIDRList is an alias of []*CIDR to provide sort.Interface.

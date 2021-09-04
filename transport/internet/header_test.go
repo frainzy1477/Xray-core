@@ -3,13 +3,13 @@ package internet_test
 import (
 	"testing"
 
-	"github.com/frainzy/xray-core/common"
-	. "github.com/frainzy/xray-core/transport/internet"
-	"github.com/frainzy/xray-core/transport/internet/headers/noop"
-	"github.com/frainzy/xray-core/transport/internet/headers/srtp"
-	"github.com/frainzy/xray-core/transport/internet/headers/utp"
-	"github.com/frainzy/xray-core/transport/internet/headers/wechat"
-	"github.com/frainzy/xray-core/transport/internet/headers/wireguard"
+	"github.com/frainzy1477/xray-core/common"
+	. "github.com/frainzy1477/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/transport/internet/headers/noop"
+	"github.com/frainzy1477/xray-core/transport/internet/headers/srtp"
+	"github.com/frainzy1477/xray-core/transport/internet/headers/utp"
+	"github.com/frainzy1477/xray-core/transport/internet/headers/wechat"
+	"github.com/frainzy1477/xray-core/transport/internet/headers/wireguard"
 )
 
 func TestAllHeadersLoadable(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/frainzy/xray-core/common/platform"
-	"github.com/frainzy/xray-core/features"
+	"github.com/frainzy1477/xray-core/common/platform"
+	"github.com/frainzy1477/xray-core/features"
 )
 
 // Timeout contains limits for connection timeout.

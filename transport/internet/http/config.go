@@ -1,9 +1,9 @@
 package http
 
 import (
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/dice"
-	"github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/dice"
+	"github.com/frainzy1477/xray-core/transport/internet"
 )
 
 const protocolName = "http"

@@ -3,9 +3,9 @@ package routing
 import (
 	"context"
 
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/features"
-	"github.com/frainzy/xray-core/transport"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/features"
+	"github.com/frainzy1477/xray-core/transport"
 )
 
 // Dispatcher is a feature that dispatches inbound requests to outbound handlers based on rules.

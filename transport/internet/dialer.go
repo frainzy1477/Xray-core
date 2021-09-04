@@ -3,8 +3,8 @@ package internet
 import (
 	"context"
 
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/session"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/session"
 )
 
 // Dialer is the interface for dialing outbound connections.

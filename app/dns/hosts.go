@@ -1,11 +1,11 @@
 package dns
 
 import (
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/strmatcher"
-	"github.com/frainzy/xray-core/features"
-	"github.com/frainzy/xray-core/features/dns"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/strmatcher"
+	"github.com/frainzy1477/xray-core/features"
+	"github.com/frainzy1477/xray-core/features/dns"
 )
 
 // StaticHosts represents static domain-ip mapping in DNS server.

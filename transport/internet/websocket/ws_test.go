@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/protocol/tls/cert"
-	"github.com/frainzy/xray-core/transport/internet"
-	"github.com/frainzy/xray-core/transport/internet/tls"
-	. "github.com/frainzy/xray-core/transport/internet/websocket"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/protocol/tls/cert"
+	"github.com/frainzy1477/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/transport/internet/tls"
+	. "github.com/frainzy1477/xray-core/transport/internet/websocket"
 )
 
 func Test_listenWSAndDial(t *testing.T) {

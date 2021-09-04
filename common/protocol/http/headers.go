@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/net"
 )
 
 // ParseXForwardedFor parses X-Forwarded-For header in http headers, and return the IP list in it.

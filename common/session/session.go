@@ -1,14 +1,14 @@
 // Package session provides functions for sessions of incoming requests.
-package session // import "github.com/frainzy/xray-core/common/session"
+package session // import "github.com/frainzy1477/xray-core/common/session"
 
 import (
 	"context"
 	"math/rand"
 
-	"github.com/frainzy/xray-core/common/errors"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/protocol"
-	"github.com/frainzy/xray-core/common/signal"
+	"github.com/frainzy1477/xray-core/common/errors"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/protocol"
+	"github.com/frainzy1477/xray-core/common/signal"
 )
 
 // ID of a session.

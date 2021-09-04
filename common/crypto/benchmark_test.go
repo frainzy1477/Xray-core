@@ -4,7 +4,7 @@ import (
 	"crypto/cipher"
 	"testing"
 
-	. "github.com/frainzy/xray-core/common/crypto"
+	. "github.com/frainzy1477/xray-core/common/crypto"
 )
 
 const benchSize = 1024 * 1024

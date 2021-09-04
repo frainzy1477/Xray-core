@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/frainzy/xray-core/common/strmatcher"
+	. "github.com/frainzy1477/xray-core/common/strmatcher"
 )
 
 func TestDomainMatcherGroup(t *testing.T) {

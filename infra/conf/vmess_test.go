@@ -3,13 +3,13 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/protocol"
-	"github.com/frainzy/xray-core/common/serial"
-	. "github.com/frainzy/xray-core/infra/conf"
-	"github.com/frainzy/xray-core/proxy/vmess"
-	"github.com/frainzy/xray-core/proxy/vmess/inbound"
-	"github.com/frainzy/xray-core/proxy/vmess/outbound"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/protocol"
+	"github.com/frainzy1477/xray-core/common/serial"
+	. "github.com/frainzy1477/xray-core/infra/conf"
+	"github.com/frainzy1477/xray-core/proxy/vmess"
+	"github.com/frainzy1477/xray-core/proxy/vmess/inbound"
+	"github.com/frainzy1477/xray-core/proxy/vmess/outbound"
 )
 
 func TestVMessOutbound(t *testing.T) {

@@ -7,16 +7,16 @@ import (
 
 	"golang.org/x/net/dns/dnsmessage"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/net"
-	dns_proto "github.com/frainzy/xray-core/common/protocol/dns"
-	"github.com/frainzy/xray-core/common/session"
-	"github.com/frainzy/xray-core/common/task"
-	"github.com/frainzy/xray-core/core"
-	"github.com/frainzy/xray-core/features/dns"
-	"github.com/frainzy/xray-core/transport"
-	"github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/net"
+	dns_proto "github.com/frainzy1477/xray-core/common/protocol/dns"
+	"github.com/frainzy1477/xray-core/common/session"
+	"github.com/frainzy1477/xray-core/common/task"
+	"github.com/frainzy1477/xray-core/core"
+	"github.com/frainzy1477/xray-core/features/dns"
+	"github.com/frainzy1477/xray-core/transport"
+	"github.com/frainzy1477/xray-core/transport/internet"
 )
 
 func init() {

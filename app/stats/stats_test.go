@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/frainzy/xray-core/app/stats"
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/features/stats"
+	. "github.com/frainzy1477/xray-core/app/stats"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/features/stats"
 )
 
 func TestInterface(t *testing.T) {

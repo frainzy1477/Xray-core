@@ -1,8 +1,8 @@
 package internet
 
 import (
-	"github.com/frainzy/xray-core/common/serial"
-	"github.com/frainzy/xray-core/features"
+	"github.com/frainzy1477/xray-core/common/serial"
+	"github.com/frainzy1477/xray-core/features"
 )
 
 type ConfigCreator func() interface{}

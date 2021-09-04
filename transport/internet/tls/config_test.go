@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/protocol/tls/cert"
-	. "github.com/frainzy/xray-core/transport/internet/tls"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/protocol/tls/cert"
+	. "github.com/frainzy1477/xray-core/transport/internet/tls"
 )
 
 func TestCertificateIssuing(t *testing.T) {

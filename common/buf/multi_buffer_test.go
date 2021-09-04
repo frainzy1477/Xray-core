@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/frainzy/xray-core/common"
-	. "github.com/frainzy/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common"
+	. "github.com/frainzy1477/xray-core/common/buf"
 )
 
 func TestMultiBufferRead(t *testing.T) {

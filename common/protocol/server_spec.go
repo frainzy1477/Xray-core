@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/frainzy/xray-core/common/dice"
-	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/dice"
+	"github.com/frainzy1477/xray-core/common/net"
 )
 
 type ValidationStrategy interface {

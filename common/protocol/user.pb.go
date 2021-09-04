@@ -8,7 +8,7 @@ package protocol
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	serial "github.com/frainzy/xray-core/common/serial"
+	serial "github.com/frainzy1477/xray-core/common/serial"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

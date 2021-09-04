@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/frainzy/xray-core/app/policy"
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/features/policy"
+	. "github.com/frainzy1477/xray-core/app/policy"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/features/policy"
 )
 
 func TestPolicy(t *testing.T) {

@@ -3,9 +3,9 @@ package inbound
 import (
 	"context"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/features"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/features"
 )
 
 // Handler is the interface for handlers that process inbound connections.

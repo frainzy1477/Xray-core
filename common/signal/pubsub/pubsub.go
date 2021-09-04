@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/signal/done"
-	"github.com/frainzy/xray-core/common/task"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/signal/done"
+	"github.com/frainzy1477/xray-core/common/task"
 )
 
 type Subscriber struct {

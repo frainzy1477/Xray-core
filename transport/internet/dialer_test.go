@@ -6,10 +6,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/testing/servers/tcp"
-	. "github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/testing/servers/tcp"
+	. "github.com/frainzy1477/xray-core/transport/internet"
 )
 
 func TestDialWithLocalAddr(t *testing.T) {

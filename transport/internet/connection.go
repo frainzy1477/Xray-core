@@ -3,7 +3,7 @@ package internet
 import (
 	"net"
 
-	"github.com/frainzy/xray-core/features/stats"
+	"github.com/frainzy1477/xray-core/features/stats"
 )
 
 type Connection interface {

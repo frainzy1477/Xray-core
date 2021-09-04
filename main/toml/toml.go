@@ -3,12 +3,12 @@ package toml
 import (
 	"io"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/cmdarg"
-	"github.com/frainzy/xray-core/core"
-	"github.com/frainzy/xray-core/infra/conf"
-	"github.com/frainzy/xray-core/infra/conf/serial"
-	"github.com/frainzy/xray-core/main/confloader"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/cmdarg"
+	"github.com/frainzy1477/xray-core/core"
+	"github.com/frainzy1477/xray-core/infra/conf"
+	"github.com/frainzy1477/xray-core/infra/conf/serial"
+	"github.com/frainzy1477/xray-core/main/confloader"
 )
 
 func init() {

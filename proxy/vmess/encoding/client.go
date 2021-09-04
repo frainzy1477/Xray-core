@@ -15,15 +15,15 @@ import (
 
 	"golang.org/x/crypto/chacha20poly1305"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/bitmask"
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/crypto"
-	"github.com/frainzy/xray-core/common/dice"
-	"github.com/frainzy/xray-core/common/protocol"
-	"github.com/frainzy/xray-core/common/serial"
-	"github.com/frainzy/xray-core/proxy/vmess"
-	vmessaead "github.com/frainzy/xray-core/proxy/vmess/aead"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/bitmask"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/crypto"
+	"github.com/frainzy1477/xray-core/common/dice"
+	"github.com/frainzy1477/xray-core/common/protocol"
+	"github.com/frainzy1477/xray-core/common/serial"
+	"github.com/frainzy1477/xray-core/proxy/vmess"
+	vmessaead "github.com/frainzy1477/xray-core/proxy/vmess/aead"
 )
 
 func hashTimestamp(h hash.Hash, t protocol.Timestamp) []byte {

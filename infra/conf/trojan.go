@@ -8,10 +8,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/protocol"
-	"github.com/frainzy/xray-core/common/serial"
-	"github.com/frainzy/xray-core/proxy/trojan"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/protocol"
+	"github.com/frainzy1477/xray-core/common/serial"
+	"github.com/frainzy1477/xray-core/proxy/trojan"
 )
 
 // TrojanServerTarget is configuration of a single trojan server

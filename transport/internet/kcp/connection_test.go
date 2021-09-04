@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/frainzy/xray-core/common/buf"
-	. "github.com/frainzy/xray-core/transport/internet/kcp"
+	"github.com/frainzy1477/xray-core/common/buf"
+	. "github.com/frainzy1477/xray-core/transport/internet/kcp"
 )
 
 type NoOpCloser int

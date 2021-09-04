@@ -4,9 +4,9 @@ import (
 	"encoding/binary"
 	"sync"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/serial"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/serial"
 	"golang.org/x/net/dns/dnsmessage"
 )
 

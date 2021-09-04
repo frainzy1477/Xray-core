@@ -7,8 +7,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	. "github.com/frainzy/xray-core/common/errors"
-	"github.com/frainzy/xray-core/common/log"
+	. "github.com/frainzy1477/xray-core/common/errors"
+	"github.com/frainzy1477/xray-core/common/log"
 )
 
 func TestError(t *testing.T) {

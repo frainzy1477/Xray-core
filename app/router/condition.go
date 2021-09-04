@@ -6,9 +6,9 @@ import (
 	"go.starlark.net/starlark"
 	"go.starlark.net/syntax"
 
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/strmatcher"
-	"github.com/frainzy/xray-core/features/routing"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/strmatcher"
+	"github.com/frainzy1477/xray-core/features/routing"
 )
 
 type Condition interface {

@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/frainzy/xray-core/common"
+	"github.com/frainzy1477/xray-core/common"
 )
 
 func main() {

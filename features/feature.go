@@ -1,8 +1,8 @@
 package features
 
-import "github.com/frainzy/xray-core/common"
+import "github.com/frainzy1477/xray-core/common"
 
-//go:generate go run github.com/frainzy/xray-core/common/errors/errorgen
+//go:generate go run github.com/frainzy1477/xray-core/common/errors/errorgen
 
 // Feature is the interface for Xray features. All features must implement this interface.
 // All existing features have an implementation in app directory. These features can be replaced by third-party ones.

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/protocol/tls/cert"
-	"github.com/frainzy/xray-core/common/task"
-	"github.com/frainzy/xray-core/main/commands/base"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/protocol/tls/cert"
+	"github.com/frainzy1477/xray-core/common/task"
+	"github.com/frainzy1477/xray-core/main/commands/base"
 )
 
 // cmdCert is the tls cert command

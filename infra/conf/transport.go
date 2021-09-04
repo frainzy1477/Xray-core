@@ -1,9 +1,9 @@
 package conf
 
 import (
-	"github.com/frainzy/xray-core/common/serial"
-	"github.com/frainzy/xray-core/transport/global"
-	"github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/common/serial"
+	"github.com/frainzy1477/xray-core/transport/global"
+	"github.com/frainzy1477/xray-core/transport/internet"
 )
 
 type TransportConfig struct {

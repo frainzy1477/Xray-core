@@ -6,14 +6,14 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/errors"
-	"github.com/frainzy/xray-core/common/mux"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/session"
-	"github.com/frainzy/xray-core/testing/mocks"
-	"github.com/frainzy/xray-core/transport"
-	"github.com/frainzy/xray-core/transport/pipe"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/errors"
+	"github.com/frainzy1477/xray-core/common/mux"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/session"
+	"github.com/frainzy1477/xray-core/testing/mocks"
+	"github.com/frainzy1477/xray-core/transport"
+	"github.com/frainzy1477/xray-core/transport/pipe"
 )
 
 func TestIncrementalPickerFailure(t *testing.T) {

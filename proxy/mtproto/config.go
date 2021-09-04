@@ -1,7 +1,7 @@
 package mtproto
 
 import (
-	"github.com/frainzy/xray-core/common/protocol"
+	"github.com/frainzy1477/xray-core/common/protocol"
 )
 
 func (a *Account) Equals(another protocol.Account) bool {

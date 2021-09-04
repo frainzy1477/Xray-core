@@ -3,9 +3,9 @@ package dns
 import (
 	"context"
 
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/core"
-	"github.com/frainzy/xray-core/features/dns"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/core"
+	"github.com/frainzy1477/xray-core/features/dns"
 )
 
 type FakeDNSServer struct {

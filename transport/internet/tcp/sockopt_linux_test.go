@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/testing/servers/tcp"
-	"github.com/frainzy/xray-core/transport/internet"
-	. "github.com/frainzy/xray-core/transport/internet/tcp"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/testing/servers/tcp"
+	"github.com/frainzy1477/xray-core/transport/internet"
+	. "github.com/frainzy1477/xray-core/transport/internet/tcp"
 )
 
 func TestGetOriginalDestination(t *testing.T) {

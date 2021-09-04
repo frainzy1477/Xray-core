@@ -8,11 +8,11 @@ import (
 
 	xtls "github.com/xtls/go"
 
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/ocsp"
-	"github.com/frainzy/xray-core/common/platform/filesystem"
-	"github.com/frainzy/xray-core/common/protocol/tls/cert"
-	"github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/ocsp"
+	"github.com/frainzy1477/xray-core/common/platform/filesystem"
+	"github.com/frainzy1477/xray-core/common/protocol/tls/cert"
+	"github.com/frainzy1477/xray-core/transport/internet"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/frainzy/xray-core/core"
+	. "github.com/frainzy1477/xray-core/core"
 )
 
 func TestContextPanic(t *testing.T) {

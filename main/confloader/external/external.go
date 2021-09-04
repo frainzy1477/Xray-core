@@ -1,6 +1,6 @@
 package external
 
-//go:generate go run github.com/frainzy/xray-core/common/errors/errorgen
+//go:generate go run github.com/frainzy1477/xray-core/common/errors/errorgen
 
 import (
 	"bytes"
@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/platform/ctlcmd"
-	"github.com/frainzy/xray-core/main/confloader"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/platform/ctlcmd"
+	"github.com/frainzy1477/xray-core/main/confloader"
 )
 
 func ConfigLoader(arg string) (out io.Reader, err error) {

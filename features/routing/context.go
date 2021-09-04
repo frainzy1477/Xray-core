@@ -1,7 +1,7 @@
 package routing
 
 import (
-	"github.com/frainzy/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/net"
 )
 
 // Context is a feature to store connection information for routing.

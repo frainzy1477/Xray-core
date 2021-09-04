@@ -3,9 +3,9 @@ package protocol
 import (
 	"runtime"
 
-	"github.com/frainzy/xray-core/common/bitmask"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/uuid"
+	"github.com/frainzy1477/xray-core/common/bitmask"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/uuid"
 )
 
 // RequestCommand is a custom command in a proxy request.

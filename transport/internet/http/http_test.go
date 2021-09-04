@@ -8,14 +8,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/protocol/tls/cert"
-	"github.com/frainzy/xray-core/testing/servers/tcp"
-	"github.com/frainzy/xray-core/transport/internet"
-	. "github.com/frainzy/xray-core/transport/internet/http"
-	"github.com/frainzy/xray-core/transport/internet/tls"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/protocol/tls/cert"
+	"github.com/frainzy1477/xray-core/testing/servers/tcp"
+	"github.com/frainzy1477/xray-core/transport/internet"
+	. "github.com/frainzy1477/xray-core/transport/internet/http"
+	"github.com/frainzy1477/xray-core/transport/internet/tls"
 )
 
 func TestHTTPConnection(t *testing.T) {

@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/frainzy/xray-core/core"
-	"github.com/frainzy/xray-core/main/commands/base"
+	"github.com/frainzy1477/xray-core/core"
+	"github.com/frainzy1477/xray-core/main/commands/base"
 )
 
 var cmdVersion = &base.Command{

@@ -3,9 +3,9 @@ package buf
 import (
 	"io"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/errors"
-	"github.com/frainzy/xray-core/common/serial"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/errors"
+	"github.com/frainzy1477/xray-core/common/serial"
 )
 
 // ReadAllToBytes reads all content from the reader into a byte array, until EOF.

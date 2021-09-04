@@ -3,10 +3,10 @@ package dispatcher
 import (
 	"context"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/protocol/bittorrent"
-	"github.com/frainzy/xray-core/common/protocol/http"
-	"github.com/frainzy/xray-core/common/protocol/tls"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/protocol/bittorrent"
+	"github.com/frainzy1477/xray-core/common/protocol/http"
+	"github.com/frainzy1477/xray-core/common/protocol/tls"
 )
 
 type SniffResult interface {

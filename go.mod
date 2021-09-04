@@ -1,4 +1,4 @@
-module github.com/frainzy/xray-core
+module github.com/frainzy1477/xray-core
 
 go 1.16
 

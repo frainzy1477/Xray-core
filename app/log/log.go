@@ -1,13 +1,13 @@
 package log
 
-//go:generate go run github.com/frainzy/xray-core/common/errors/errorgen
+//go:generate go run github.com/frainzy1477/xray-core/common/errors/errorgen
 
 import (
 	"context"
 	"sync"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/log"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/log"
 )
 
 // Instance is a log.Handler that handles logs.

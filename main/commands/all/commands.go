@@ -1,12 +1,12 @@
 package all
 
 import (
-	"github.com/frainzy/xray-core/main/commands/all/api"
-	"github.com/frainzy/xray-core/main/commands/all/tls"
-	"github.com/frainzy/xray-core/main/commands/base"
+	"github.com/frainzy1477/xray-core/main/commands/all/api"
+	"github.com/frainzy1477/xray-core/main/commands/all/tls"
+	"github.com/frainzy1477/xray-core/main/commands/base"
 )
 
-// go:generate go run github.com/frainzy/xray-core/common/errors/errorgen
+// go:generate go run github.com/frainzy1477/xray-core/common/errors/errorgen
 
 func init() {
 	base.RootCommand.Commands = append(

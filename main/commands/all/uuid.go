@@ -3,8 +3,8 @@ package all
 import (
 	"fmt"
 
-	"github.com/frainzy/xray-core/common/uuid"
-	"github.com/frainzy/xray-core/main/commands/base"
+	"github.com/frainzy1477/xray-core/common/uuid"
+	"github.com/frainzy1477/xray-core/main/commands/base"
 )
 
 var cmdUUID = &base.Command{

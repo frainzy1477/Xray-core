@@ -1,6 +1,6 @@
 package shadowsocks
 
-import "github.com/frainzy/xray-core/common/errors"
+import "github.com/frainzy1477/xray-core/common/errors"
 
 type errPathObjHolder struct{}
 

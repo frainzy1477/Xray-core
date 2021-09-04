@@ -5,9 +5,9 @@ import (
 	"crypto/cipher"
 	"crypto/sha256"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/protocol"
-	"github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/protocol"
+	"github.com/frainzy1477/xray-core/transport/internet"
 	"golang.org/x/crypto/chacha20poly1305"
 )
 

@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/protocol/udp"
-	"github.com/frainzy/xray-core/features/routing"
-	"github.com/frainzy/xray-core/transport"
-	. "github.com/frainzy/xray-core/transport/internet/udp"
-	"github.com/frainzy/xray-core/transport/pipe"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/protocol/udp"
+	"github.com/frainzy1477/xray-core/features/routing"
+	"github.com/frainzy1477/xray-core/transport"
+	. "github.com/frainzy1477/xray-core/transport/internet/udp"
+	"github.com/frainzy1477/xray-core/transport/pipe"
 )
 
 type TestDispatcher struct {

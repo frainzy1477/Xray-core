@@ -8,13 +8,13 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/protocol"
-	"github.com/frainzy/xray-core/common/serial"
-	"github.com/frainzy/xray-core/common/uuid"
-	"github.com/frainzy/xray-core/proxy/vless"
-	"github.com/frainzy/xray-core/proxy/vless/inbound"
-	"github.com/frainzy/xray-core/proxy/vless/outbound"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/protocol"
+	"github.com/frainzy1477/xray-core/common/serial"
+	"github.com/frainzy1477/xray-core/common/uuid"
+	"github.com/frainzy1477/xray-core/proxy/vless"
+	"github.com/frainzy1477/xray-core/proxy/vless/inbound"
+	"github.com/frainzy1477/xray-core/proxy/vless/outbound"
 )
 
 type VLessInboundFallback struct {

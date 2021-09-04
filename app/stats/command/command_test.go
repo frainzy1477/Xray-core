@@ -7,9 +7,9 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/frainzy/xray-core/app/stats"
-	. "github.com/frainzy/xray-core/app/stats/command"
-	"github.com/frainzy/xray-core/common"
+	"github.com/frainzy1477/xray-core/app/stats"
+	. "github.com/frainzy1477/xray-core/app/stats/command"
+	"github.com/frainzy1477/xray-core/common"
 )
 
 func TestGetStats(t *testing.T) {

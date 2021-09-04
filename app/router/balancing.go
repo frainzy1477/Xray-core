@@ -1,8 +1,8 @@
 package router
 
 import (
-	"github.com/frainzy/xray-core/common/dice"
-	"github.com/frainzy/xray-core/features/outbound"
+	"github.com/frainzy1477/xray-core/common/dice"
+	"github.com/frainzy1477/xray-core/features/outbound"
 )
 
 type BalancingStrategy interface {

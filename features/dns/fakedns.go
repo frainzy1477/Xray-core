@@ -3,8 +3,8 @@ package dns
 import (
 	gonet "net"
 
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/features"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/features"
 )
 
 type FakeDNSEngine interface {

@@ -5,10 +5,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	. "github.com/frainzy/xray-core/app/dns"
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/features/dns"
+	. "github.com/frainzy1477/xray-core/app/dns"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/features/dns"
 )
 
 func TestStaticHosts(t *testing.T) {

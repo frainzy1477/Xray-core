@@ -9,9 +9,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/signal"
-	"github.com/frainzy/xray-core/common/signal/semaphore"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/signal"
+	"github.com/frainzy1477/xray-core/common/signal/semaphore"
 )
 
 var (

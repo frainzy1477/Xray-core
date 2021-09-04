@@ -1,4 +1,4 @@
-package uuid // import "github.com/frainzy/xray-core/common/uuid"
+package uuid // import "github.com/frainzy1477/xray-core/common/uuid"
 
 import (
 	"bytes"
@@ -6,8 +6,8 @@ import (
 	"crypto/sha1"
 	"encoding/hex"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/errors"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/errors"
 )
 
 var (

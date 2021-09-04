@@ -13,10 +13,10 @@ import (
 	"golang.org/x/crypto/chacha20poly1305"
 	"golang.org/x/crypto/hkdf"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/crypto"
-	"github.com/frainzy/xray-core/common/protocol"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/crypto"
+	"github.com/frainzy1477/xray-core/common/protocol"
 )
 
 // MemoryAccount is an account type converted from Account.

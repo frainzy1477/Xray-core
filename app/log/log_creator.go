@@ -1,8 +1,8 @@
 package log
 
 import (
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/log"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/log"
 )
 
 type HandlerCreatorOptions struct {

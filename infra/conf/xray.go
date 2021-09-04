@@ -2,17 +2,17 @@ package conf
 
 import (
 	"encoding/json"
-	"github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/transport/internet"
 	"log"
 	"os"
 	"strings"
 
-	"github.com/frainzy/xray-core/app/dispatcher"
-	"github.com/frainzy/xray-core/app/proxyman"
-	"github.com/frainzy/xray-core/app/stats"
-	"github.com/frainzy/xray-core/common/serial"
-	core "github.com/frainzy/xray-core/core"
-	"github.com/frainzy/xray-core/transport/internet/xtls"
+	"github.com/frainzy1477/xray-core/app/dispatcher"
+	"github.com/frainzy1477/xray-core/app/proxyman"
+	"github.com/frainzy1477/xray-core/app/stats"
+	"github.com/frainzy1477/xray-core/common/serial"
+	core "github.com/frainzy1477/xray-core/core"
+	"github.com/frainzy1477/xray-core/transport/internet/xtls"
 )
 
 var (

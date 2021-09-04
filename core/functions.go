@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/net/cnc"
-	"github.com/frainzy/xray-core/features/routing"
-	"github.com/frainzy/xray-core/transport/internet/udp"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/net/cnc"
+	"github.com/frainzy1477/xray-core/features/routing"
+	"github.com/frainzy1477/xray-core/transport/internet/udp"
 )
 
 // CreateObject creates a new object based on the given Xray instance and config. The Xray instance may be nil.

@@ -8,8 +8,8 @@ package quic
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	protocol "github.com/frainzy/xray-core/common/protocol"
-	serial "github.com/frainzy/xray-core/common/serial"
+	protocol "github.com/frainzy1477/xray-core/common/protocol"
+	serial "github.com/frainzy1477/xray-core/common/serial"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

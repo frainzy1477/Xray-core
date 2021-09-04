@@ -1,6 +1,6 @@
 package commander
 
-//go:generate go run github.com/frainzy/xray-core/common/errors/errorgen
+//go:generate go run github.com/frainzy1477/xray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -9,10 +9,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/signal/done"
-	core "github.com/frainzy/xray-core/core"
-	"github.com/frainzy/xray-core/features/outbound"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/signal/done"
+	core "github.com/frainzy1477/xray-core/core"
+	"github.com/frainzy1477/xray-core/features/outbound"
 )
 
 // Commander is a Xray feature that provides gRPC methods to external clients.

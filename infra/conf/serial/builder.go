@@ -1,9 +1,9 @@
 package serial
 
 import (
-	"github.com/frainzy/xray-core/core"
-	"github.com/frainzy/xray-core/infra/conf"
-	"github.com/frainzy/xray-core/main/confloader"
+	"github.com/frainzy1477/xray-core/core"
+	"github.com/frainzy1477/xray-core/infra/conf"
+	"github.com/frainzy1477/xray-core/main/confloader"
 	"io"
 )
 

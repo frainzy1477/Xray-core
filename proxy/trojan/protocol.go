@@ -8,15 +8,15 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/errors"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/protocol"
-	"github.com/frainzy/xray-core/common/session"
-	"github.com/frainzy/xray-core/common/signal"
-	"github.com/frainzy/xray-core/features/stats"
-	"github.com/frainzy/xray-core/transport/internet"
-	"github.com/frainzy/xray-core/transport/internet/xtls"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/errors"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/protocol"
+	"github.com/frainzy1477/xray-core/common/session"
+	"github.com/frainzy1477/xray-core/common/signal"
+	"github.com/frainzy1477/xray-core/features/stats"
+	"github.com/frainzy1477/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/transport/internet/xtls"
 )
 
 var (

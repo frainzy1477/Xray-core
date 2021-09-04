@@ -9,12 +9,12 @@
 // connections.
 package core
 
-//go:generate go run github.com/frainzy/xray-core/common/errors/errorgen
+//go:generate go run github.com/frainzy1477/xray-core/common/errors/errorgen
 
 import (
 	"runtime"
 
-	"github.com/frainzy/xray-core/common/serial"
+	"github.com/frainzy1477/xray-core/common/serial"
 )
 
 var (

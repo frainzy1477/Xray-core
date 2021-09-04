@@ -5,14 +5,14 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	. "github.com/frainzy/xray-core/app/router"
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/session"
-	"github.com/frainzy/xray-core/features/dns"
-	"github.com/frainzy/xray-core/features/outbound"
-	routing_session "github.com/frainzy/xray-core/features/routing/session"
-	"github.com/frainzy/xray-core/testing/mocks"
+	. "github.com/frainzy1477/xray-core/app/router"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/session"
+	"github.com/frainzy1477/xray-core/features/dns"
+	"github.com/frainzy1477/xray-core/features/outbound"
+	routing_session "github.com/frainzy1477/xray-core/features/routing/session"
+	"github.com/frainzy1477/xray-core/testing/mocks"
 )
 
 type mockOutboundManager struct {

@@ -1,6 +1,6 @@
 package inbound
 
-//go:generate go run github.com/frainzy/xray-core/common/errors/errorgen
+//go:generate go run github.com/frainzy1477/xray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -10,28 +10,28 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/errors"
-	"github.com/frainzy/xray-core/common/log"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/platform"
-	"github.com/frainzy/xray-core/common/protocol"
-	"github.com/frainzy/xray-core/common/retry"
-	"github.com/frainzy/xray-core/common/session"
-	"github.com/frainzy/xray-core/common/signal"
-	"github.com/frainzy/xray-core/common/task"
-	core "github.com/frainzy/xray-core/core"
-	"github.com/frainzy/xray-core/features/dns"
-	feature_inbound "github.com/frainzy/xray-core/features/inbound"
-	"github.com/frainzy/xray-core/features/policy"
-	"github.com/frainzy/xray-core/features/routing"
-	"github.com/frainzy/xray-core/features/stats"
-	"github.com/frainzy/xray-core/proxy/vless"
-	"github.com/frainzy/xray-core/proxy/vless/encoding"
-	"github.com/frainzy/xray-core/transport/internet"
-	"github.com/frainzy/xray-core/transport/internet/tls"
-	"github.com/frainzy/xray-core/transport/internet/xtls"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/errors"
+	"github.com/frainzy1477/xray-core/common/log"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/platform"
+	"github.com/frainzy1477/xray-core/common/protocol"
+	"github.com/frainzy1477/xray-core/common/retry"
+	"github.com/frainzy1477/xray-core/common/session"
+	"github.com/frainzy1477/xray-core/common/signal"
+	"github.com/frainzy1477/xray-core/common/task"
+	core "github.com/frainzy1477/xray-core/core"
+	"github.com/frainzy1477/xray-core/features/dns"
+	feature_inbound "github.com/frainzy1477/xray-core/features/inbound"
+	"github.com/frainzy1477/xray-core/features/policy"
+	"github.com/frainzy1477/xray-core/features/routing"
+	"github.com/frainzy1477/xray-core/features/stats"
+	"github.com/frainzy1477/xray-core/proxy/vless"
+	"github.com/frainzy1477/xray-core/proxy/vless/encoding"
+	"github.com/frainzy1477/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/transport/internet/tls"
+	"github.com/frainzy1477/xray-core/transport/internet/xtls"
 )
 
 var (

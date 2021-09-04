@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/buf"
-	. "github.com/frainzy/xray-core/common/log"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/buf"
+	. "github.com/frainzy1477/xray-core/common/log"
 )
 
 func TestFileLogger(t *testing.T) {

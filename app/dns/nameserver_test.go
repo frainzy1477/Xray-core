@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/frainzy/xray-core/app/dns"
-	"github.com/frainzy/xray-core/common"
-	dns_feature "github.com/frainzy/xray-core/features/dns"
+	. "github.com/frainzy1477/xray-core/app/dns"
+	"github.com/frainzy1477/xray-core/common"
+	dns_feature "github.com/frainzy1477/xray-core/features/dns"
 )
 
 func TestLocalNameServer(t *testing.T) {

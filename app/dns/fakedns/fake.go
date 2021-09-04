@@ -7,10 +7,10 @@ import (
 	gonet "net"
 	"time"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/cache"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/features/dns"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/cache"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/features/dns"
 )
 
 type Holder struct {

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	. "github.com/frainzy/xray-core/common"
+	. "github.com/frainzy1477/xray-core/common"
 )
 
 func TestMust(t *testing.T) {

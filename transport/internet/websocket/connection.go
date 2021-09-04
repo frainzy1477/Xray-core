@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/errors"
-	"github.com/frainzy/xray-core/common/serial"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/errors"
+	"github.com/frainzy1477/xray-core/common/serial"
 )
 
 var (

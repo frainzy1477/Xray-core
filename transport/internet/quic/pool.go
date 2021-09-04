@@ -3,7 +3,7 @@ package quic
 import (
 	"sync"
 
-	"github.com/frainzy/xray-core/common/bytespool"
+	"github.com/frainzy1477/xray-core/common/bytespool"
 )
 
 var pool *sync.Pool

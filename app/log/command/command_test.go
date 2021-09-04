@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"github.com/frainzy/xray-core/app/dispatcher"
-	"github.com/frainzy/xray-core/app/log"
-	. "github.com/frainzy/xray-core/app/log/command"
-	"github.com/frainzy/xray-core/app/proxyman"
-	_ "github.com/frainzy/xray-core/app/proxyman/inbound"
-	_ "github.com/frainzy/xray-core/app/proxyman/outbound"
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/serial"
-	"github.com/frainzy/xray-core/core"
+	"github.com/frainzy1477/xray-core/app/dispatcher"
+	"github.com/frainzy1477/xray-core/app/log"
+	. "github.com/frainzy1477/xray-core/app/log/command"
+	"github.com/frainzy1477/xray-core/app/proxyman"
+	_ "github.com/frainzy1477/xray-core/app/proxyman/inbound"
+	_ "github.com/frainzy1477/xray-core/app/proxyman/outbound"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/serial"
+	"github.com/frainzy1477/xray-core/core"
 )
 
 func TestLoggerRestart(t *testing.T) {

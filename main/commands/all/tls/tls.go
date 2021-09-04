@@ -1,7 +1,7 @@
 package tls
 
 import (
-	"github.com/frainzy/xray-core/main/commands/base"
+	"github.com/frainzy1477/xray-core/main/commands/base"
 )
 
 // CmdTLS holds all tls sub commands

@@ -1,16 +1,16 @@
 package router
 
-//go:generate go run github.com/frainzy/xray-core/common/errors/errorgen
+//go:generate go run github.com/frainzy1477/xray-core/common/errors/errorgen
 
 import (
 	"context"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/core"
-	"github.com/frainzy/xray-core/features/dns"
-	"github.com/frainzy/xray-core/features/outbound"
-	"github.com/frainzy/xray-core/features/routing"
-	routing_dns "github.com/frainzy/xray-core/features/routing/dns"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/core"
+	"github.com/frainzy1477/xray-core/features/dns"
+	"github.com/frainzy1477/xray-core/features/outbound"
+	"github.com/frainzy1477/xray-core/features/routing"
+	routing_dns "github.com/frainzy1477/xray-core/features/routing/dns"
 )
 
 // Router is an implementation of routing.Router.

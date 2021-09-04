@@ -1,7 +1,7 @@
 package global
 
 import (
-	"github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/transport/internet"
 )
 
 // Apply applies this Config.

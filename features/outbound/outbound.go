@@ -3,9 +3,9 @@ package outbound
 import (
 	"context"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/features"
-	"github.com/frainzy/xray-core/transport"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/features"
+	"github.com/frainzy1477/xray-core/transport"
 )
 
 // Handler is the interface for handlers that process outbound connections.

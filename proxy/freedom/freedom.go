@@ -1,25 +1,25 @@
 package freedom
 
-//go:generate go run github.com/frainzy/xray-core/common/errors/errorgen
+//go:generate go run github.com/frainzy1477/xray-core/common/errors/errorgen
 
 import (
 	"context"
 	"time"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/buf"
-	"github.com/frainzy/xray-core/common/dice"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/retry"
-	"github.com/frainzy/xray-core/common/session"
-	"github.com/frainzy/xray-core/common/signal"
-	"github.com/frainzy/xray-core/common/task"
-	"github.com/frainzy/xray-core/core"
-	"github.com/frainzy/xray-core/features/dns"
-	"github.com/frainzy/xray-core/features/policy"
-	"github.com/frainzy/xray-core/features/stats"
-	"github.com/frainzy/xray-core/transport"
-	"github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/buf"
+	"github.com/frainzy1477/xray-core/common/dice"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/retry"
+	"github.com/frainzy1477/xray-core/common/session"
+	"github.com/frainzy1477/xray-core/common/signal"
+	"github.com/frainzy1477/xray-core/common/task"
+	"github.com/frainzy1477/xray-core/core"
+	"github.com/frainzy1477/xray-core/features/dns"
+	"github.com/frainzy1477/xray-core/features/policy"
+	"github.com/frainzy1477/xray-core/features/stats"
+	"github.com/frainzy1477/xray-core/transport"
+	"github.com/frainzy1477/xray-core/transport/internet"
 )
 
 func init() {

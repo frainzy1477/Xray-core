@@ -3,11 +3,11 @@ package dispatcher
 import (
 	"context"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/session"
-	"github.com/frainzy/xray-core/core"
-	"github.com/frainzy/xray-core/features/dns"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/session"
+	"github.com/frainzy1477/xray-core/core"
+	"github.com/frainzy1477/xray-core/features/dns"
 )
 
 // newFakeDNSSniffer Create a Fake DNS metadata sniffer

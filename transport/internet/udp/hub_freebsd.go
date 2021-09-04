@@ -7,8 +7,8 @@ import (
 	"encoding/gob"
 	"io"
 
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/transport/internet"
 )
 
 // RetrieveOriginalDest from stored laddr, caddr

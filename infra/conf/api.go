@@ -3,11 +3,11 @@ package conf
 import (
 	"strings"
 
-	"github.com/frainzy/xray-core/app/commander"
-	loggerservice "github.com/frainzy/xray-core/app/log/command"
-	handlerservice "github.com/frainzy/xray-core/app/proxyman/command"
-	statsservice "github.com/frainzy/xray-core/app/stats/command"
-	"github.com/frainzy/xray-core/common/serial"
+	"github.com/frainzy1477/xray-core/app/commander"
+	loggerservice "github.com/frainzy1477/xray-core/app/log/command"
+	handlerservice "github.com/frainzy1477/xray-core/app/proxyman/command"
+	statsservice "github.com/frainzy1477/xray-core/app/stats/command"
+	"github.com/frainzy1477/xray-core/common/serial"
 )
 
 type APIConfig struct {

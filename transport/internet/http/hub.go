@@ -10,15 +10,15 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/net"
-	"github.com/frainzy/xray-core/common/net/cnc"
-	http_proto "github.com/frainzy/xray-core/common/protocol/http"
-	"github.com/frainzy/xray-core/common/serial"
-	"github.com/frainzy/xray-core/common/session"
-	"github.com/frainzy/xray-core/common/signal/done"
-	"github.com/frainzy/xray-core/transport/internet"
-	"github.com/frainzy/xray-core/transport/internet/tls"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/net"
+	"github.com/frainzy1477/xray-core/common/net/cnc"
+	http_proto "github.com/frainzy1477/xray-core/common/protocol/http"
+	"github.com/frainzy1477/xray-core/common/serial"
+	"github.com/frainzy1477/xray-core/common/session"
+	"github.com/frainzy1477/xray-core/common/signal/done"
+	"github.com/frainzy1477/xray-core/transport/internet"
+	"github.com/frainzy1477/xray-core/transport/internet/tls"
 )
 
 type Listener struct {

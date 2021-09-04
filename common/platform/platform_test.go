@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/frainzy/xray-core/common"
-	. "github.com/frainzy/xray-core/common/platform"
+	"github.com/frainzy1477/xray-core/common"
+	. "github.com/frainzy1477/xray-core/common/platform"
 )
 
 func TestNormalizeEnvName(t *testing.T) {

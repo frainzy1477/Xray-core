@@ -7,9 +7,9 @@ import (
 
 	xtls "github.com/xtls/go"
 
-	"github.com/frainzy/xray-core/common"
-	"github.com/frainzy/xray-core/common/protocol/tls/cert"
-	. "github.com/frainzy/xray-core/transport/internet/xtls"
+	"github.com/frainzy1477/xray-core/common"
+	"github.com/frainzy1477/xray-core/common/protocol/tls/cert"
+	. "github.com/frainzy1477/xray-core/transport/internet/xtls"
 )
 
 func TestCertificateIssuing(t *testing.T) {

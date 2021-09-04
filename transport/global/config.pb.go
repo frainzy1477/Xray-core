@@ -8,7 +8,7 @@ package global
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	internet "github.com/frainzy/xray-core/transport/internet"
+	internet "github.com/frainzy1477/xray-core/transport/internet"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
