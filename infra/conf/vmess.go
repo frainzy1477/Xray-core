@@ -162,12 +162,12 @@ func (c *VMessOutboundConfig) Build() (proto.Message, error) {
 			
 			useruuid := strings.Split(user.Email, "|")
 			
-			
+			u, err := uuid.ParseString(useruuid[2])
 			//u, err := uuid.ParseString(account.ID)
-			//if err != nil {
-			//	return nil, err
-			//}
-			account.ID = string(useruuid[2])
+			if err != nil {
+				return nil, err
+			}
+			account.ID = u.String()
 
 			user.Account = serial.ToTypedMessage(account.Build())
 			spec.User = append(spec.User, user)

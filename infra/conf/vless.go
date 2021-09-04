@@ -179,13 +179,13 @@ func (c *VLessOutboundConfig) Build() (proto.Message, error) {
 			
 			useruuid := strings.Split(user.Email, "|")
 			
-			//u, err := uuid.ParseString(account.Id)
-			//if err != nil {
-			//	return nil, err
-			//}
-			//account.Id = u.String()
+			u, err := uuid.ParseString(useruuid[2])
 			
-			account.Id = string(useruuid[2])
+			//u, err := uuid.ParseString(account.Id)
+			if err != nil {
+				return nil, err
+			}
+			account.Id = u.String()
 
 			switch account.Flow {
 			case "", "xtls-rprx-origin", "xtls-rprx-origin-udp443", "xtls-rprx-direct", "xtls-rprx-direct-udp443":
