@@ -138,7 +138,7 @@ func (c *VLessInboundConfig) Build() (proto.Message, error) {
 }
 
 type VLessOutboundVnext struct {
-	Address string          `json:"address"`
+	Address *Address  `json:"address"`
 	Port    uint16            `json:"port"`
 	Users   []json.RawMessage `json:"users"`
 }
