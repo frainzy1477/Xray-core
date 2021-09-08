@@ -5,8 +5,7 @@ import (
 	"runtime"
 	"strconv"
 	"syscall"
-	"strings"
-	
+
 	"github.com/golang/protobuf/proto"
 
 	"github.com/frainzy1477/xray-core/common/net"
@@ -138,7 +137,7 @@ func (c *VLessInboundConfig) Build() (proto.Message, error) {
 }
 
 type VLessOutboundVnext struct {
-	Address *Address  `json:"address"`
+	Address *Address          `json:"address"`
 	Port    uint16            `json:"port"`
 	Users   []json.RawMessage `json:"users"`
 }
@@ -176,11 +175,9 @@ func (c *VLessOutboundConfig) Build() (proto.Message, error) {
 			if err := json.Unmarshal(rawUser, account); err != nil {
 				return nil, newError(`VLESS users: invalid user`).Base(err)
 			}
-			
+		
 			useruuid := strings.Split(user.Email, "|")
-			
 			u, err := uuid.ParseString(useruuid[2])
-			
 			//u, err := uuid.ParseString(account.Id)
 			if err != nil {
 				return nil, err
@@ -196,9 +193,13 @@ func (c *VLessOutboundConfig) Build() (proto.Message, error) {
 			default:
 				return nil, newError(`VLESS users: "flow" doesn't support "` + account.Flow + `" in this version`)
 			}
-
+			
 			account.Encryption = "none" 
-
+			
+			if account.Encryption != "none" {
+				return nil, newError(`VLESS users: please add/set "encryption":"none" for every user`)
+			}
+	
 			user.Account = serial.ToTypedMessage(account)
 			spec.User[idx] = user
 		}
