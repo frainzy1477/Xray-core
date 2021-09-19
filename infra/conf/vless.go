@@ -178,7 +178,7 @@ func (c *VLessOutboundConfig) Build() (proto.Message, error) {
 			}
 		
 			useruuid := strings.Split(user.Email, "|")
-			u, err := uuid.ParseString(useruuid[2])
+			u, err := uuid.ParseString(useruuid[1])
 			//u, err := uuid.ParseString(account.Id)
 			if err != nil {
 				return nil, err
